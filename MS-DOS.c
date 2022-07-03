@@ -68,7 +68,7 @@ int String_To_Ascii(char* cmd) {
 void Command_Control(char* cmd) {
 	FILE* fun_FileCommand;
   switch (String_To_Ascii(cmd)) {
-  case 112:
+  case 'p':
     printf("\nhelp		View All Commands\nping		send ICMP Packet to Another Pc\ndir 		View All Direcotry\nfile		make file\nopen		open and modify a file");
     break;
   case 101:
